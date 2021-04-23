@@ -34,7 +34,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Build release version
-      run: 
+      run: |
         mkdir bin
         cd bin
         ../configure.py
